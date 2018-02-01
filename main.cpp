@@ -25,6 +25,14 @@ int main() {
     p2[0] = '\0';
     snprintf(p2, size, "%s", "bbbb");
     cout << p2 << endl;
-    //delete[] p;
+    //delete[] p2;
+    
+    char *p3 = new char[size];
+    p3[0] = '\0';
+    snprintf(p3, size, "%s", "ccc");
+    cout << p3 << endl;
+    //delete[] p3;
+
+
     return 0;
 }
